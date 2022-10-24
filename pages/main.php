@@ -1,0 +1,80 @@
+<div id="main">
+        <?php
+            include("sidebar/sidebar.php");
+        ?>
+            <div class="content">
+            <?php
+            if(isset($_GET['quanli']) )
+            {
+                $gan=$_GET['quanli'];
+            }
+            else{
+                $gan='';
+            }
+            if($gan=='danhmucsanpham')
+            {
+                include("main/danhmuc.php");
+            }
+            elseif($gan=='danhmucbaiviet')
+            {
+                include("main/danhmucbaiviet.php");
+            }
+            
+            elseif($gan=='baiviet')
+            {
+                include("main/baiviet.php");
+            }
+            elseif($gan=='tintuc')
+            {
+                include("main/tintuc.php");
+            }
+            elseif($gan=='lienhe')
+            {
+                include("main/lienhe.php");
+            }
+           
+            elseif($gan=='giohang')
+            {
+                include("main/giohang.php");
+            }
+            elseif($gan=='sanpham')
+            {
+                include("main/sanpham.php");
+            }
+            elseif($gan=='dangky')
+            {
+                include("main/dangky.php");
+            }
+            elseif($gan=='dangnhap')
+            {
+                include("main/dangnhap.php");
+            }
+            elseif($gan=='thanhtoan')
+            {
+                include("main/thanhtoan.php");
+            }
+            elseif($gan=='camon')
+            {
+                include("main/camon.php");
+            }
+            elseif($gan=='thaydoimatkhau')
+            {
+                include("main/thaydoimatkhau.php");
+            }
+            elseif($gan=='timkiem')
+            {
+                include("main/timkiem.php");
+            }
+            elseif($gan=='phantrang')
+            {
+                include("main/phantrang.php");
+            }
+
+            else
+            {
+                include("main/index.php");
+            }
+
+            ?>
+            </div>
+</div>

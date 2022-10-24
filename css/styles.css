@@ -1,0 +1,308 @@
+body
+          {
+              margin: 0;
+              padding: 0;
+          }
+          .wrapper
+          {
+              height: auto;
+              width: 90%;
+              margin: 0 auto;
+          }
+          .wapper_ct
+          {
+            height: auto;
+            width: 90%;
+            margin: 0 auto;
+          }
+          .hinhanhsp
+          {
+            
+              float: left;
+              width: 30%;
+          }
+          .chitietsp
+          {
+            float: right;
+            width: 65%;
+            /* tranh dung vao anh  */
+            margin: 0 5px;
+          }
+          .themgiohang
+          {
+              float: left;
+              border:none;
+              background: orangered;
+              color: black;
+              padding: 15px;
+              font-style: 18px;
+              /* khi re chuột vaof sẽ có hiệu ứng bàn tay */
+              cursor: pointer;
+          }
+          .muangay
+          {
+              margin: 0 20px;
+              border:none;
+              background: orangered;
+              color: black;
+              padding: 15px;
+              font-style: 18px;
+               /* khi re chuột vaof sẽ có hiệu ứng bàn tay */
+               cursor: pointer;
+          }
+          .header
+          {
+              border: 1px solid black;
+              height: 500px;
+              width: 100%;
+              background-size: 100% 250px;
+              background-repeat: no-repeat;
+          
+          }
+          .menu
+          {
+              border: 1px solid black;
+              height: 50px;
+              width: 100%;
+              background:orangered;
+          }
+          .listmenu
+          {
+              padding: 0;
+              margin: 0;
+              width: 60%;
+              list-style: none;
+              margin: 0px  250px;
+              line-height: 27px;
+          }
+          .listmenu li
+          {
+
+              float: left;
+              margin: 7px;
+              padding: 5px ;
+          }
+          .listmenu li a
+          {
+              text-decoration: none;
+              /* cho text vao chinh giua */
+              text-align: center;
+              color: black;
+          }
+          .listmenu li:hover
+          {
+              background:aqua;
+          }
+          .baiviet
+          {
+              padding: 0;
+              margin: 0;
+              list-style: none;
+          }
+          .baiviet li
+          {
+              margin: 10px;
+              border: 1px boid black;
+          }
+          #main
+          {
+              border: 1px solid black; 
+              height:auto ;
+              width: 100%;
+          }
+          .list_trang
+                  {
+                    padding:0;
+                    margin:0;
+                    list-style:none;
+                  }
+                  .list_trang li
+                  {
+                    float:left;
+                    padding:10px 18px;
+                    margin:10px ;
+                    background:pink;
+                    display:block;
+                  }
+                  .list_trang li a
+                  {
+                    color:black;
+                    text-align :center;
+                    text-decoration:none;
+                  }
+          .sidebar
+          {
+              border: 1px solid black;
+              height: auto;
+              width: 20%;
+              margin-top: 5px;
+              margin-left: 5px;
+              float: left;
+          }
+          .listsidebar
+          {
+              
+              padding: 0;
+              margin: 0;
+              width: 100%;
+              list-style: none;
+              line-height: 27px;
+          }
+          .listsidebar li:hover
+          {
+              background: orangered;
+          }
+          .listsidebar li
+          {
+              margin: 7px;
+              padding:5px ;
+          }
+          .listsidebar li a
+          {
+              text-decoration: none;
+              /* cho text vao chinh giua */
+              text-align: center;
+              color: black;
+              /* hien thi theo dang cot */
+              display: block;
+              text-align:left;
+          }
+          .listsidebar li:hover
+          {
+              background: green;
+              color:black;
+          }
+          .content
+          {
+              border: 1px solid black; 
+              height:auto;
+              width: 78%;
+              margin-top: 5px;
+              margin-left: 5px;
+              float: right;
+          }
+          .list
+          {
+              padding: 0;
+              margin:0;
+              list-style: none;
+              width: 100%;
+              
+          }
+          .list li
+          {
+              width: 20%;
+              border: 1px solid black;
+              margin: 23px;
+              float: left;
+              background: pink;
+              height: 350px;
+          }
+          .list li img
+          {
+              width: 100%;
+          }
+          .list li a
+          {
+              
+              text-decoration: none;
+          }
+          .list_bv
+          {
+              padding: 0;
+              margin:0;
+              list-style: none;
+              width: 100%;
+
+          }
+          .list_bv li
+          {
+              border: 1px solid black;
+              float: left;
+              width:80%;
+              margin: 23px;
+              background: black;
+              height: auto;
+          }
+          .list_bv li img
+          {
+              margin:0px 180px;
+              width: 300px;
+          }
+          .list_bv li a
+          {
+        
+              text-decoration: none;
+              
+          }
+          .name_bv
+          {
+              /* float: left; */
+              text-align: center;
+              color:white;
+              font-size: 17px;
+              /* in dam */
+              font-weight: bold;
+          }
+          .name
+          {
+            /* float:right; */
+              text-align: center;
+              color: black;
+              font-size: 17px;
+              /* in dam */
+              font-weight: bold;
+              
+          }
+
+          .price
+          {
+              text-align: center;
+              color: red;
+              font-size: 16px;
+              font-weight: bold;
+          }
+        .footer
+          {
+            border: 1px bold black;
+            height: 300px;
+            background-color: gray;
+            width: 100%;
+          }
+        .footer a
+        {
+            margin-left: 20px;
+            color: aliceblue;
+            text-decoration: none;
+        }
+        .footer a:hover
+        {
+            color:black;
+            text-decoration: underline;
+        }
+        .center
+        {
+            width: 50%;
+            margin: 0 auto;
+        }
+        .footer1
+        {
+            width: 18%;
+            float: left;
+            margin-right: 2%;
+        }
+        .footer2
+        {
+            width: 28%;
+            float: left;
+            margin-right: 2%;
+        }
+        .footer3
+        {
+            width: 50%;
+            float: left;
+        }
+          .clear
+          {
+              clear: both;
+          }
